@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>B-10</title>
+        <link rel="stylesheet" href="./styles.css">
         <!-- font-awesome-CDN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Google Font CDN -->
@@ -34,9 +35,6 @@
                   'b10-primary': '#ABEF5F',
                   'header-primary-bg': '',
                 },
-                backgroundImage:{
-
-                }
               },
             },
           }
@@ -300,6 +298,51 @@
       </div>
   </section>
   
+  <!-- contact form -->
+   <section class="my-20 bg-img">
+    <div class="w-11/12 mx-auto py-20">
+    <!-- text part -->
+    <div class="text-center">
+      <button class="rounded-full bg-[rgba(171,239,95,0.2)] font-semibold p-2">
+          <i class="fa-solid fa-arrow-right"></i>Let’s Connect
+      </button>
+      <h2 class="text-4xl font-bold my-6">Let’s Discuss Next Project</h2>
+      <p class="mb-6">
+          The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
+      </p>
+  </div>
+
+  <!-- form part -->
+   <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div>
+      <input class="w-full p-4 border-none outline-none rounded-full " type="text" placeholder="First Name*">
+    </div>
+    <div>
+      <input class="w-full p-4 border-none outline-none rounded-full " type="text" placeholder="Last Name*">
+    </div>
+    <div>
+      <input class="w-full p-4 border-none outline-none rounded-full " type="text" placeholder="Phone Number*">
+    </div>
+    <div>
+      <input class="w-full p-4 border-none outline-none rounded-full " type="text" placeholder="Email Address*">
+    </div>
+    <div class="lg:col-span-2">
+      <textarea rows="7" class="p-4 border-none outline-none rounded-lg w-full" name="" id="" placeholder="Write your message here"></textarea>
+     </div>
+     <div class="lg:col-span-2">
+      <button class=" btn flex items-center space-x-2 bg-[#ABEF5F] text-black rounded-full p-2 px-3 w-full">
+        <div  class="font-bold"> Send Mail </div>
+        <div class="flex items-center justify-center bg-black text-black rounded-full p-1.5 px-2">
+            <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
+        </div>
+    </button>
+  </div>
+    
+
+  </div>
+
+  </div>
+</section>
 
     </main>
     <footer></footer>
